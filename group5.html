@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OS MCQ Quiz</title>
+    <link rel="stylesheet" href="group5.css">
+</head>
+<body>
+    <div id="welcomeSection">
+        <h1 class="welcome-animation">Welcome to the OS MCQ Quiz Group .....5</h1>
+        <button id="startQuizBtn">Start Quiz</button>
+    </div>  
+
+    <div id="rulesSection" style="display: none;">
+        <div class="rules-container">
+            <h2>Rules and Regulations(Group 5)</h2>
+            <ul>
+                <li>Each question carries 10 points.</li>
+                <li>You'll have 30 seconds to answer each question.</li>
+                <li>Wrong answers or timeouts will deduct 10 points.</li>
+                <li>You must answer each question before proceeding to the next.</li>
+            </ul>
+            <button id="understandBtn">I Understand the Rules</button>
+        </div>
+    </div>
+
+    <div id="quizSection" style="display: none;">
+        <div id="quiz-container" class="wedding-card">
+            <div id="questionContainer">
+                <h2 id="question"></h2>
+                <div id="options"></div>
+            </div>
+            <div id="correctAnswer" style="display: none;"></div>
+            <div id="quiz-footer">
+                <button id="nextQuestionBtn" style="display: none;">Next Question</button>
+                <button id="restartBtn" style="display: none;">Restart Quiz</button>
+                <button id="playAgainBtn" style="display: none;">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="animationContainer" style="display: none;" class="animation pop"></div>
+
+    <div id="scoreSection" style="display: none;">
+        <h1>Your Final Score is:</h1>
+        <div id="finalScore"></div>
+    </div>
+
+    <div id="timer" class="timer">30</div>
+    <div id="score" class="score">Score: 0</div>
+
+    <script src="group5.js"></script>
+</body>
+</html>
